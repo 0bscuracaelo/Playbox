@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.playbox {
+    display: flex;
+    gap:20px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.game1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.game2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.game3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.game {
+    height: 65vh;
+    width: 45vh;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    /* background-color: blue; */
+}
+
+.game:hover {
+    box-shadow: 10px 10px 10px gray;
+}
+
+.tik_tac_toe {
+    background-image: url(/img/tic-tac-toe.jpg);
+    background-size: cover;
+}
+
+.memory {
+    background-image: url(/img/memory\ game.jpg);
+    background-size: cover;
+}
+
+.typing {
+    background-image: url(/img/typing\ game.png);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.end{
+    margin-top: 20px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    text-align: center;
+    height: 15vh;
+    padding: 40px;
+}
